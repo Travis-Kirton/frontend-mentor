@@ -1,0 +1,45 @@
+.advice {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px 20px 0px;
+    padding: 0px 20px 0px;
+    height: 300px;
+    background-color: $darkGrayishBlue;
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+
+    &__number {
+        color: $neonGreen;
+        font-size: 12px;
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
+
+    &__text {
+        font-weight: 800;
+        color:$lightCyan;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    &__button {
+        position: absolute;
+        bottom: -30px;
+        width:60px;
+        height:60px;
+        background-color: $neonGreen;
+        border: none;
+        border-radius: 100%;
+
+
+        &:hover {
+            box-shadow: 0px 0px 25px $neonGreen;
+        }
+    }
+}
