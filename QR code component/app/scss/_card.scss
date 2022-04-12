@@ -1,0 +1,35 @@
+.card {
+    height: 520px;
+    width: 21rem;
+    background-color: $white;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 5px 10px 20px rgba($color: #646464, $alpha: 0.1);
+
+    &__image {
+       img {
+        width: 19rem;
+        height: 19rem;
+        border-radius: 10px;
+       }
+    }
+
+    &__title {
+        font-weight: 700;
+        color: $darkBlue;
+        font-size: 20px;
+        padding: 0px 35px 0px;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 0.9375rem;
+        color: $grayishBlue;
+        padding: 0px 41px 0px;
+    }
+}
